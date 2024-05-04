@@ -1,0 +1,32 @@
+.ProseMirror {
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: 1px solid #000;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 300px;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.flt-btn {
+  background: none;
+  border: none;
+  outline: none;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-inline: 2px;
+}
+.is-active {
+  background-color: #000;
+  color: White;
+}
+.toolbar {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-bottom: none;
+}
