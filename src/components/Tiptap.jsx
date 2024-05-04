@@ -3,6 +3,7 @@ import Placeholder from "@tiptap/extension-placeholder";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { useCallback } from "react";
+import Button from "../../../../packages/shared/Button";
 
 // define your extension array
 const extensions = [
@@ -51,6 +52,7 @@ const Tiptap = () => {
   return (
     <>
       <div className="toolbar">
+        <Button> Press </Button>
         <button
           onClick={setLink}
           className={editor.isActive("href") ? "flt-btn is-active" : "flt-btn"}
